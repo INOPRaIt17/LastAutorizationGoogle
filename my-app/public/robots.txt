@@ -1,0 +1,5 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow:
+
+205543887244-gg9sqk5r8hrr4134sbgiivfpapljf0c8.apps.googleusercontent.com
