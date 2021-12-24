@@ -1,3 +1,48 @@
 .textOne{
   text-align: center;
+  margin-top: 20%;
+}
+
+.box{
+  background-color: red;
+}
+
+.btnTwo{
+  margin-left: 90%;
+}
+
+.h2{
+  text-align: center;
+}
+
+.textSignIn{
+  margin-top: 5%;
+  text-align: center;
+
+}
+
+.appHeader{
+  background-color: rgb(210, 232, 255);
+}
+
+.btnOne{
+  margin-left: 40%;
+  margin-top: 20%;
+}
+
+.card {
+  margin-top: 20%;
+  width: 400px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  height: 350px;
+  margin-left: 33%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
 }
