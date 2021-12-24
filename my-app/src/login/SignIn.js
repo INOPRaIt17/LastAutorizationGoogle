@@ -12,6 +12,8 @@ class SignIn extends React.Component {
 		})
 	}
 
+	
+
 	state = {
 		name: null
 	}
@@ -62,12 +64,10 @@ class SignIn extends React.Component {
 								<div className={s.container}>
 									{name && <h4 className={s.textSignIn}>Это список пользователей</h4>}
 									{name && <PersonList />}
-
 									<div className={s.textSignIn}>
 										{!name && <h4>Авторизируйтесь через Google</h4>}
 									</div>
 									<div className={s.btnOne}>
-
 										{!name && <button className="btn btn-primary" onClick={this.signIn}>Log In</button>}
 									</div>
 								</div>
