@@ -12,8 +12,6 @@ class SignIn extends React.Component {
 		})
 	}
 
-	
-
 	state = {
 		name: null
 	}
